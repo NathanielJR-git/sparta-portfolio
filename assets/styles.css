@@ -169,5 +169,42 @@ body {
 
 .experience-description {
     font-weight: bold;
-    font-size: 16px
+    font-size: 16px;
+    color: #181716;
+}
+
+.vertical-gap {
+    height: 30px;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-line {
+    flex: 0 1 auto; 
+    background-color: #181716;
+    height: 1px;
+    width: 1230px;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 250px;
+    gap: 50px;
+}
+
+.achievements-title {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 339px;
+}
+
+.achievements-list li {
+    margin-top: 30px;
+    font-size: 20px;
 }
