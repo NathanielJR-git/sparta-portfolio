@@ -63,7 +63,8 @@ body {
 .introduction-text {
     align-items: center;
     flex: 1 1 auto;
-    max-width: 800px
+    max-width: 800px;
+    color: #181716
 }
 
 .name {
