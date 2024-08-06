@@ -1,26 +1,82 @@
-.nav-container {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 50px;
-    width: auto;
-    align-items: center;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-container div {
+body {
+    margin: 0px;
+}
+
+.nav-bar-container {
+    display: flex;
+    background-color: #343a40;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-bar-logo, .nav-bar-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-bar-logo {
+    margin: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.nav-bar-list {
+    display: flex;
+    align-items: center;
+    margin: 80px;
+}
+
+
+.links-list {
+    list-style-type: none;
+    width: 50px;
+    text-decoration: none;
+}
+
+.contact-logo {
+    width: 25px;
+    height: auto
+}
+
+.introduction-container {
+    display: flex;
+    height: 800px;
+    margin: 0px;
+}
+
+.self-photo {
+    margin-left: 100px;
+    max-width: 800px;
+    flex: 1 1 auto;
+}
+
+.introduction-text {
+    align-items: center;
+    flex: 1 1 auto;
+    max-width: 800px
+}
+
+.name {
+    margin-top: 300px;
+    font-size: 60px;
     text-align: center;
 }
 
-.nav-logo {
-    flex: 0 0 auto;
-    width: 200px;
+.self-description {
+    font-size: 30px;
+    text-align: center;
 }
 
-.nav-blank {
-    flex: 1 1 0;
-}
-
-.nav-item {
-    flex: 0 0 auto;
-    width: 150px;
+.hobbies-container {
+    background-color: #fbfbfb;
+    height: 400px;
 }
