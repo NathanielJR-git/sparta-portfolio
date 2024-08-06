@@ -1,0 +1,26 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 50px;
+    width: auto;
+    align-items: center;
+}
+
+.nav-container div {
+    text-align: center;
+}
+
+.nav-logo {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.nav-blank {
+    flex: 1 1 0;
+}
+
+.nav-item {
+    flex: 0 0 auto;
+    width: 150px;
+}
