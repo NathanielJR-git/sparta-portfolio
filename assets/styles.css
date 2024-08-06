@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css@family=Montserrat:500');
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat";
 }
 
 body {
@@ -25,7 +27,6 @@ body {
 .nav-bar-logo {
     margin: 80px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -38,7 +39,7 @@ body {
 
 .links-list {
     list-style-type: none;
-    width: 50px;
+    width: 70px;
     text-decoration: none;
 }
 
@@ -49,13 +50,13 @@ body {
 
 .introduction-container {
     display: flex;
-    height: 800px;
+    height: 900px;
     margin: 0px;
+    background: #fbfbfb;
 }
 
 .self-photo {
-    margin-left: 100px;
-    max-width: 800px;
+    max-width: 900px;
     flex: 1 1 auto;
 }
 
@@ -66,8 +67,9 @@ body {
 }
 
 .name {
-    margin-top: 300px;
+    margin-top: 350px;
     font-size: 60px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -76,7 +78,39 @@ body {
     text-align: center;
 }
 
-.hobbies-container {
-    background-color: #fbfbfb;
-    height: 400px;
+.interests-container {
+    display: flex;
+    background-color: white;
+    height: 250px;
+    align-items: center;
+    gap: 30px;
+}
+
+.interests-container div {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.interest-writing {
+    font-size: 32px;
+}
+
+.cryptocurrency-image {
+    width: 110px;
+    height: auto;
+}
+
+.econ-finance-image {
+    width: 110px;
+    height: auto;
+}
+
+.ai-ml-ds-image {
+    width: 110px;
+    height: auto;
+}
+
+.game-image {
+    width: 110px;
+    height: auto;
 }
