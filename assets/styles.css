@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css@family=Montserrat:500');
 
 * {
-    font-family: "Montserrat";
+    font-family: "Montserrat", Arial;
 }
 
 body {
@@ -114,4 +114,50 @@ body {
 .game-image {
     width: 110px;
     height: auto;
+}
+
+.projects-title {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.projects-text-title, .projects-text-description {
+    flex: 1 1 0;
+}
+
+.projects-text-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 210px;
+}
+
+.projects-item {
+    display: flex;
+    height: 175px;
+    width: 600px;
+    background-color: #fbfbfb;
+    align-items: center;
+    justify-content: flex-start;
+    gap
+}
+
+.experience-image {
+    height: 150px;
+    width: auto;
+    margin: 10px;
+}
+
+.experience-description {
+    font-weight: bold;
+    font-size: 16px
 }
