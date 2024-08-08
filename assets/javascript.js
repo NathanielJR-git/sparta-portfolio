@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   const newImageSrc = "assets/images/self-photo-burnt.png";
-
   imageElement2.addEventListener("mouseover", function() {
     imageElement.src = newImageSrc;
     imageElement.removeEventListener("mouseover", arguments.callee);
