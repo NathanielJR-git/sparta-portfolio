@@ -6,9 +6,9 @@ Welcome to my personal portfolio webpage! This site showcases my projects, skill
 This portfolio is designed to present my work and background in a clear and professional manner. It includes sections for my interests and hobbies, projects, achievements, and contact information.
 
 # Technologies Used
-HTML5: Markup language used for structuring the content.
-CSS3: Styling language used for designing the layout.
-JavaScript: Programming language used for interactive elements.
+- HTML5: Markup language used for structuring the content.
+- CSS3: Styling language used for designing the layout.
+- JavaScript: Programming language used for interactive elements.
 
 # Live Preview
 
