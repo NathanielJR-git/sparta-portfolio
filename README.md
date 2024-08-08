@@ -8,6 +8,7 @@ This portfolio is designed to present my work and background in a clear and prof
 # Technologies Used
 HTML5: Markup language used for structuring the content.
 CSS3: Styling language used for designing the layout.
+JavaScript: Programming language used for interactive elements.
 
 # Live Preview
 
