@@ -12,4 +12,4 @@ JavaScript: Programming language used for interactive elements.
 
 # Live Preview
 
-You can preview my code live by clicking the following link https://nathanieljr-git.github.io/sparta-portfolio/ 
+You can preview my code live by clicking the following link https://nathaniel-sparta-portfolio-eta.vercel.app/
