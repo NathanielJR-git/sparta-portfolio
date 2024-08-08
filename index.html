@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathaniel's Portfolio</title>
+    <script src="assets/javascript.js" defer></script>
     <link href="assets/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
         <!--Navigation bar-->
         <nav id="nav-bar">
             <div class="nav-bar-container">
-                <a href="#nav-bar" class="nav-bar-logo">Portfolio</a>
+                <a href="#introduction" class="nav-bar-logo">Portfolio</a>
                 <ul class="nav-bar-list">
                     <li class="links-list">
                         <a href="#interests" class="nav-bar-link">Interests</a>
@@ -146,9 +147,7 @@
         <div class="achievements-container">
             <div class="achievements-title">
                 My Personal Achievements
-            </div>
-            <div class="achievements-list">
-                <ol>
+                <ol class="achievements-list">
                     <li>
                         Investment Competititon at ASE with IDX 1st Place Winner
                     </li>
@@ -159,6 +158,21 @@
                         Valorant Competition at AKSA 2nd Place Winner
                     </li>
                 </ol>
+            </div>
+            <div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="assets/images/sertif-investing.png" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="assets/images/sertif-valorant.png" style="width:100%">
+                    </div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                  </div>
             </div>
         </div>
     </section>

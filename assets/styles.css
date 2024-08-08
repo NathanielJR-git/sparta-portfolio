@@ -191,7 +191,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 250px;
+    height: 450px;
     gap: 50px;
 }
 
@@ -204,5 +204,68 @@ body {
 
 .achievements-list li {
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.slideshow-container {
+    max-width: 525px;
+    position: relative;
+    margin: auto;
+  }
+
+.slideshow-container {
+    max-width: 525px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from 
+    {
+      opacity: .4
+    }
+    to 
+    {
+        opacity: 1
+    }
 }
