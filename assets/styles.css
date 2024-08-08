@@ -153,6 +153,10 @@ body {
     border-radius: 12px;
 }
 
+.projects-item:hover {
+    transform: scale(1.05);
+}
+
 .experience-image {
     height: 150px;
     width: auto;
