@@ -98,6 +98,10 @@ body {
     font-size: 32px;
 }
 
+.interest-item:hover {
+    transform: scale(1.05);
+}
+
 .cryptocurrency-image {
     width: 110px;
     height: auto;
