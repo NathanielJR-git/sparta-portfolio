@@ -1,3 +1,10 @@
+function scrollToCoordinate() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
