@@ -16,7 +16,6 @@
         <nav id="nav-bar">
             <div class="nav-bar-container">
                 <button class="nav-bar-logo" onclick="scrollToCoordinate()">Portfolio</button>
-                
                 <ul class="nav-bar-list">
                     <li class="links-list">
                         <a href="#interests" class="nav-bar-link">Interests</a>
@@ -29,12 +28,12 @@
                     </li>
                     <li class="links-list"></li>
                         <a href="https://www.instagram.com/omgitsnathaniel/" class="nav-bar-link" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/images/instagram-logo.png" rel="Instagram Logo" class="contact-logo">
+                            <img src="assets/images/instagram-logo.png" alt="Instagram Logo" class="contact-logo">
                         </a>
                     </li>
                     <li class="links-list"></li>
                         <a href="https://www.linkedin.com/in/nathaniel-jonathan-rusli-1a4956294/" class="nav-bar-link" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/images/linkedin-logo.png"rel="Linkedin Logo" class="contact-logo">
+                            <img src="assets/images/linkedin-logo.png"alt="Linkedin Logo" class="contact-logo">
                         </a>
                     </li>
                 </ul>
@@ -44,7 +43,10 @@
     <!--Introduction-->
     <section id="introduction">
         <div class="introduction-container">
-            <img src="assets/images/self-photo.png" rel="Self Photo" class="self-photo">
+            <span class="self-photo-container">
+                <img src="assets/images/self-photo.png" alt="Self Photo" id="image-to-replace" class="self-photo">
+                <img src="assets/images/self-photo-laser.png" alt="Self Photo" id="image-to-replace-2" class="relay-self-photo">
+            </span>
             <div class="introduction-text">
                 <p class="name">
                     Nathaniel Jonathan Rusli
@@ -64,25 +66,25 @@
                 </p>
              </div>
              <div class="interest-item">
-                <img src="assets/images/bitcoin-logo.png" rel="Bitcoin Logo" class="cryptocurrency-image">
+                <img src="assets/images/bitcoin-logo.png" alt="Bitcoin Logo" class="cryptocurrency-image">
                 <p>
                     Cryptocurrency
                 </p>
              </div>
              <div class="interest-item">
-                <img src="assets/images/econ-finance-logo.png" rel="Economy & Finance Logo" class="econ-finance-image">
+                <img src="assets/images/econ-finance-logo.png" alt="Economy & Finance Logo" class="econ-finance-image">
                 <p>
                     Economy & Finance
                 </p>
              </div>
              <div class="interest-item">
-                <img src="assets/images/ai-ml-ds-logo.png" rel="AI ML DS Logo" class="ai-ml-ds-image">
+                <img src="assets/images/ai-ml-ds-logo.png" alt="AI ML DS Logo" class="ai-ml-ds-image">
                 <p>
                     AI/ML/DS
                 </p>
              </div>
              <div class="interest-item">
-                <img src="assets/images/game-logo.png" rel="Game Logo" class="game-image">
+                <img src="assets/images/game-logo.png" alt="Game Logo" class="game-image">
                 <p>
                     Gaming
                 </p>
@@ -103,7 +105,7 @@
         </div>
         <div class="projects-container">
             <div class="projects-item">
-                <img src="assets/images/ksep-logo.png" rel="KSEP Logo" class="experience-image">
+                <img src="assets/images/ksep-logo.png" alt="KSEP Logo" class="experience-image">
                 <div>
                     <p class="experience-description">
                         Research and Curicullum Development Staff
@@ -111,7 +113,7 @@
                 </div>
             </div>
             <div class="projects-item">
-                <img src="assets/images/ptd-logo.png" rel="KSEP Logo" class="experience-image">
+                <img src="assets/images/ptd-logo.png" alt="KSEP Logo" class="experience-image">
                 <div>
                     <p class="experience-description">
                         Head of Education
@@ -121,7 +123,7 @@
         </div>
         <div class="projects-container">
             <div class="projects-item">
-                <img src="assets/images/infest-logo.png" rel="KSEP Logo" class="experience-image">
+                <img src="assets/images/infest-logo.png" alt="KSEP Logo" class="experience-image">
                 <div>
                     <p class="experience-description">
                         Public Relations Staff
@@ -129,7 +131,7 @@
                 </div>
             </div>
             <div class="projects-item">
-                <img src="assets/images/aloysius-logo.png" rel="KSEP Logo" class="experience-image-2">
+                <img src="assets/images/aloysius-logo.png" alt="KSEP Logo" class="experience-image-2">
                 <div>
                     <p class="experience-description">
                         Highschool Yearbook Head of Finance
@@ -163,10 +165,10 @@
             <div>
                 <div class="slideshow-container">
                     <div class="mySlides fade">
-                        <img src="assets/images/sertif-investing.png" style="width:100%">
+                        <img src="assets/images/sertif-investing.png" alt="Investing Certificates" style="width:100%">
                     </div>
                     <div class="mySlides fade">
-                        <img src="assets/images/sertif-valorant.png" style="width:100%">
+                        <img src="assets/images/sertif-valorant.png" alt="Valorant Certificate" style="width:100%">
                     </div>
                 </div>
 
