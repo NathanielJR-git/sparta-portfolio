@@ -150,6 +150,7 @@ body {
     background-color: #fbfbfb;
     align-items: center;
     justify-content: flex-start;
+    border-radius: 12px;
 }
 
 .experience-image {
