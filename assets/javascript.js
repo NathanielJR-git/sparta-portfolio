@@ -1,25 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("DOM fully loaded and parsed");
-  
-  const imageElement2 = document.getElementById("image-to-replace-2")
-
+  const imageElement2 = document.getElementById("image-to-replace-2");
   const imageElement = document.getElementById("image-to-replace");
   if (!imageElement) {
     console.error("Element not found");
     return;
   }
 
-  const newImageSrc = "assets/images/self-photo-burnt.png"; // Image to replace with
+  const newImageSrc = "assets/images/self-photo-burnt.png";
 
   imageElement2.addEventListener("mouseover", function() {
-    // Change the image source on hover
     imageElement.src = newImageSrc;
-
-    // Optional: Remove event listener after first hover
     imageElement.removeEventListener("mouseover", arguments.callee);
   });
 });
-
 
 function scrollToCoordinate() {
   window.scrollTo({
@@ -31,12 +24,10 @@ function scrollToCoordinate() {
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
