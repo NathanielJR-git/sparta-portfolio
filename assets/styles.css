@@ -10,6 +10,14 @@ body {
     margin: 0px;
 }
 
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
 .nav-bar-container {
     display: flex;
     background-color: #343a40;
@@ -32,12 +40,15 @@ body {
     font-size: 20px;
 }
 
+.nav-bar-logo:hover, .nav-bar-link:hover {
+    text-shadow: 0 0 5px #fbfbfb, 0 0 10px #fbfbfb, 0 0 15px #fbfbfb, 0 0 20px #fbfbfb;
+}
+
 .nav-bar-list {
     display: flex;
     align-items: center;
     margin: 80px;
 }
-
 
 .links-list {
     list-style-type: none;
