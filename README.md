@@ -12,7 +12,7 @@ This portfolio is designed to present my work and background in a clear and prof
 
 # Live Preview
 
-You can preview my code live by clicking the following vercel's deployment link https://nathaniel-sparta-portfolio.vercel.app/
+You can preview my code live by clicking the following vercel's deployment link https://nathanieljr-portfolio.vercel.app/
 
 # Identity and Bonus
 - Identity: Nathaniel Jonathan Rusli 19623113
