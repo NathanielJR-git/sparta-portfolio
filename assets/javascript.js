@@ -1,18 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const imageElement2 = document.getElementById("image-to-replace-2");
-  const imageElement = document.getElementById("image-to-replace");
-  if (!imageElement) {
-    console.error("Element not found");
-    return;
-  }
-
-  const newImageSrc = "assets/images/self-photo-burnt.png";
-  imageElement2.addEventListener("mouseover", function() {
-    imageElement.src = newImageSrc;
-    imageElement.removeEventListener("mouseover", arguments.callee);
-  });
-});
-
 function scrollToTop() {
   window.scrollTo({
     top: 0,
