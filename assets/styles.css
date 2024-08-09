@@ -93,7 +93,23 @@ header {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 3s infinite;
 }
+
+@keyframes typing {
+    from 
+    { 
+        width: 0; 
+    }
+    to 
+    { 
+        width: 98.5%; 
+    }
+}
+
 
 .self-description {
     font-size: 30px;
