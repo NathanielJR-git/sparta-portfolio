@@ -64,6 +64,10 @@ header {
     height: auto
 }
 
+.contact-logo:hover {
+    box-shadow: 0 0 5px #fbfbfb, 0 0 10px #fbfbfb, 0 0 15px #fbfbfb, 0 0 20px #fbfbfb;
+}
+
 .introduction-container {
     display: flex;
     height: 900px;
