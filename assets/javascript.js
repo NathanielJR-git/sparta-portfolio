@@ -13,9 +13,37 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-function scrollToCoordinate() {
+function scrollToTop() {
   window.scrollTo({
     top: 0,
+    behavior: 'smooth'
+  });
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+function scrollToInterests() {
+  window.scrollTo({
+    top: 900,
+    behavior: 'smooth'
+  });
+}
+
+function scrollToProjects() {
+  window.scrollTo({
+    top: 1150,
+    behavior: 'smooth'
+  });
+}
+
+function scrollToAchievements() {
+  window.scrollTo({
+    top: 2000,
     behavior: 'smooth'
   });
 }
