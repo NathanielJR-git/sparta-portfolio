@@ -1,10 +1,21 @@
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
+// On-scroll animation functionality
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show')
+    } else {
+      entry.target.classList.remove('show')
+    }
   });
-}
+});
 
+const hiddenElement1 = document.querySelectorAll('.hidden1');
+const hiddenElement2 = document.querySelectorAll('.hidden2');
+hiddenElement1.forEach((el) => observer.observe(el));
+hiddenElement2.forEach((el) => observer.observe(el));
+
+
+// Navigation bar scroll functionality
 function scrollToTop() {
   window.scrollTo({
     top: 0,
@@ -33,6 +44,7 @@ function scrollToAchievements() {
   });
 }
 
+// Slideshow functionality
 let slideIndex = 1;
 showSlides(slideIndex);
 
